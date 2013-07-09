@@ -1098,7 +1098,7 @@ public class DragDropGrid extends ViewGroup implements OnTouchListener, OnLongCl
 		return (x > viewX && x < (viewX + view.getWidth())) && (y > viewY && y < (viewY + view.getHeight()));
 	}
 
-	public void setContainer(PagedDragDropGrid container) {
+	public void setContainer(PagedContainer container) {
 		this.container = container;
 	}
 
